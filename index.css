@@ -1,0 +1,390 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  /* line-height: 0.8; */
+}
+
+a {
+  text-decoration: none;
+  color: #4e4c4b;
+  margin: 7px;
+  /* margin-top: 5px; */
+}
+
+.nav1,
+.nav2 {
+  border-bottom: 1px solid #ccc;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left,
+.free-shipping,
+.nav-right {
+  width: 25%;
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.nav-left-logo,
+.nav-right2 {
+  width: 25%;
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.nav-middle {
+  min-width: 40%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.875rem;
+  margin: auto auto;
+}
+
+.nav-left,
+.nav-left-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  padding-left: 44px;
+}
+
+.free-shipping {
+  color: #3d7c7d;
+}
+.free-shipping p {
+  margin-bottom: 0;
+}
+
+.mobile-cart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.nav-right,
+.nav-right2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  padding-right: 44px;
+}
+
+.icons {
+  margin: 5px;
+}
+.mobile-nav {
+  height: 80px;
+}
+.mobile-logo img {
+  height: 60%;
+}
+
+.mobile-logo {
+  padding-left: 0;
+}
+
+.mobile-search {
+  width: 100%;
+  padding-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.hero-image {
+  background: url(https://www.burton.com/dw/image/v2/AADF_PRD/on/demandware.static/-/Library-Sites-shared-content/default/dw498f4533/FW21/W21-Jake-Page/21W-JakePage-FullBleedHero-01-2x.jpg?sw=1600&sfrm=jpg&q=100)
+    no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.hero-title1 {
+  font-size: 64px;
+  font-weight: 750;
+  color: #fff;
+  margin: 250px 0 0 70px;
+  line-height: 2rem;
+}
+
+.hero-title2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0 70px;
+  width: 200px;
+}
+
+.hero-body {
+  font-weight: 700;
+  color: #fff;
+  word-wrap: break-word;
+  margin: 0 0 0 70px;
+  padding-bottom: 24px;
+  width: 40%;
+}
+
+.btn-to-take-a-moment {
+  background-color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  margin: 0 0 0 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.btn-to-take-a-moment:hover {
+  background-color: black;
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-wrap {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 48px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.border-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-in-banner1 {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .stepon {
+    font-size: 32px;
+  }
+}
+
+.holiday-bg {
+  height: 350px;
+  background: #6a807d;
+}
+
+@media screen and (max-width: 768px) {
+  .holiday-bg {
+    height: 200px;
+  }
+}
+
+.mobile-holiday {
+  object-fit: contain;
+}
+
+.mobile-mine77 {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .mobile-mine77 {
+    max-width: auto;
+  }
+}
+
+.mine77-bg {
+  height: 500px;
+}
+
+.mine77-bg img {
+  max-height: 500px;
+}
+
+.text-in-banner2 {
+  top: 75%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  align-items: left;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .text-in-banner2 {
+    top: 50%;
+    left: 30%;
+  }
+
+  .text-in-banner2 img {
+    width: 50%;
+  }
+}
+
+.shopnow {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.exploremore {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 48px;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.text-subtitle {
+  color: #4e4c4b;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.link-learnmore {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #333;
+  margin-left: 0px;
+}
+
+.mine77 {
+  font-size: 16px;
+}
+
+.text-in-banner3 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .text-in-banner3 {
+    font-size: 32px;
+  }
+}
+
+.snowboard-subtitle {
+  font-size: 16px;
+}
+
+.learnmore {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #fff;
+}
+
+.flag {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-shop-now {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.btn-shop-now:hover {
+  background-color: lightgray;
+  text-decoration: none;
+  color: #000;
+}
+
+.mobile-snowboard {
+  height: 400px;
+}
+
+.mobile-snow {
+  max-height: 400px;
+}
+
+.nav3 {
+  text-align: center;
+  color: #4e4c4b;
+  font-size: 16px;
+}
+
+.nav3-left {
+  font-weight: 700;
+}
+
+.nav3-right {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.nav3-right:hover {
+  color: #000;
+}
+
+footer {
+  color: #4e4c4b;
+  font-size: 12px;
+  font-weight: 545;
+}
+
+.footer-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footer-border {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.copyright {
+  color: #6d6d6d;
+  font-size: 12px;
+}
+
+.links-right {
+  color: #4e4c4b;
+  font-size: 12px;
+}
