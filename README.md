@@ -2,6 +2,7 @@
 
 DEMO：https://biancachien.github.io/RWD-Burton.ca/
 
-![burton ca](https://user-images.githubusercontent.com/74940789/115149703-e6f12000-a097-11eb-9a28-7f4c3d6b4712.png)
+![burton](https://user-images.githubusercontent.com/74940789/115150128-9d093980-a099-11eb-97d3-c61240f93e0b.png)
+
 
 [CSS/HTML切版練習][使用Bootstrap 4.2.1 CSS Framework][實作響應式網站設計(RWD)]
